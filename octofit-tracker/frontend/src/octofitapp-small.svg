@@ -1,0 +1,18 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfeff" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#grad)" />
+  <path d="M36 32h48a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H36a8 8 0 0 1-8-8V40a8 8 0 0 1 8-8Z" fill="rgba(255,255,255,0.15)" />
+  <path d="M36 36h48a4 4 0 0 1 4 4v40a4 4 0 0 1-4 4H36a4 4 0 0 1-4-4V40a4 4 0 0 1 4-4Z" fill="rgba(255,255,255,0.25)" />
+  <circle cx="60" cy="64" r="14" fill="url(#textGrad)" />
+  <path d="M56 50h8l-6 22h-8l6-22Z" fill="#0f172a" />
+  <text x="60" y="100" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="700">OctoFit</text>
+</svg>
